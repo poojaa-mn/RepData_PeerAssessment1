@@ -19,7 +19,7 @@ The dataset is stored in a comma-separated-value (CSV) file and there are a tota
 First,let us load the data and store it in an object named data.
 
 ```{r echo=TRUE}
-data<-read.csv("C:/Users/Pooja Naik/Documents/Coursera/activity.csv")
+data<-read.csv("./activity.csv")
 head(data)
 ```
 
