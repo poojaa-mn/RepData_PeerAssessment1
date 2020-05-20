@@ -20,7 +20,7 @@ First,let us load the data and store it in an object named data.
 
 
 ```r
-data<-read.csv("C:/Users/Pooja Naik/Documents/Coursera/activity.csv")
+data<-read.csv("./activity.csv")
 head(data)
 ```
 
