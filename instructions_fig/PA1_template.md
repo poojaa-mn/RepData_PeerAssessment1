@@ -131,7 +131,7 @@ The data frame Steps_per_day now the contains the sum of steps taken each day.
 hist(Steps_per_day$Steps,breaks=20,col="red",main="Total steps taken per day",xlab="Steps",ylab="Frequency")  
 ```
 
-(https://github.com/poojaa-mn/RepData_PeerAssessment1/blob/master/instructions_fig/image_1.png)
+<img src="https://github.com/poojaa-mn/RepData_PeerAssessment1/blob/master/instructions_fig/image_1.png">
 <br>3.Calculate and report the mean and median of the total number of steps taken per day
 
 ```r
