@@ -161,7 +161,7 @@ Steps_per_interval<-aggregate(steps~interval,data=data,mean,na.rm=TRUE)
 plot(Steps_per_interval$interval,Steps_per_interval$steps,type="l" ,xlab="Interval",ylab="No.of steps",col="blue",main="Time Series plot of average steps taken per interval")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-6-1.png)<!-- -->
+<img src="https://github.com/poojaa-mn/RepData_PeerAssessment1/blob/master/instructions_fig/image_2.png">
 <br>2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
 ```r
@@ -248,7 +248,7 @@ median(imputed_steps_per_day$Steps,na.rm=TRUE)
 hist(imputed_steps_per_day$Steps,breaks=20,col="green",xlab="Steps",ylab="Frequency",main="Total number of steps taken per day")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+<img src="https://github.com/poojaa-mn/RepData_PeerAssessment1/blob/master/instructions_fig/image_3.png">
 <br>Mean of number of steps taken per day by imputing the missing values in the dataset= **10766.19**
 <br>Median of number of steps taken per day by imputing the missing values in the dataset= **10766.19**
 <br>Compare the difference in the total number of steps taken per day when the missing values in the first part of the assignment is filled with new values.
@@ -260,7 +260,7 @@ hist(imputed_steps_per_day$Steps,breaks=20,col="green",ylim=c(0,20),main=NULL,xl
 mtext("Histograms of Total Number of Steps Taken per day without/with imputed values",adj=0.9,font=2)
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-12-1.png)<!-- -->
+<img src="https://github.com/poojaa-mn/RepData_PeerAssessment1/blob/master/instructions_fig/image_4.png">
 
 <br>It can be noticed that there is a difference in frequency.The frequency is high,when the missing values had been filled with other values.
 <br>**Question 4**:Are there differences in activity patterns between weekdays and weekends?
@@ -318,6 +318,6 @@ plot(weekday_mean$interval,weekday_mean$steps,type="l",xlab="Interval",ylab="Ste
 plot(weekend_mean$interval,weekend_mean$steps,type="l",xlab="Interval",ylab="Steps",main="Time series plot of average steps taken per day during weekends")
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
+<img src="https://github.com/poojaa-mn/RepData_PeerAssessment1/blob/master/instructions_fig/image_5.png">
 
 
